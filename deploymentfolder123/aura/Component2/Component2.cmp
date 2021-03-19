@@ -1,0 +1,12 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+        <div class="slds-p-around_medium">
+            <lightning:recordEditForm objectApiName="Account"
+                                         onsubmit="{!c.handleSubmit}">
+                <lightning:messages />
+                <lightning:inputField fieldName="Name" />
+                <lightning:inputField fieldName="Phone" />
+                <lightning:inputField fieldName="BillingAddress" />
+                <lightning:button type="submit" name="Submit" label="submit" class="slds-m-top_medium"/>
+            </lightning:recordEditForm>
+        </div>
+    </aura:component>
