@@ -6,7 +6,7 @@
                 <lightning:inputField fieldName="Name" />
                 <lightning:inputField fieldName="Phone" />
                 <lightning:inputField fieldName="BillingAddress" />
-                <lightning:button type="submit" name="Submidhdhdhdhtgit2" label="submit" class="slds-m-top_medium"/>
+                <lightning:button type="submit" name="Suhdhtgitadaddd2" label="submit" class="slds-m-top_medium"/>
             </lightning:recordEditForm>
         </div>
-    </aura:component>
+    </aura:component>git commit --message "Initial commit of DreamHouse metadata"
